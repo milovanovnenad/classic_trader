@@ -1,0 +1,129 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.container {
+    padding-top: 50px;
+
+    .row {
+        padding: 10px;
+    }
+
+    .adTitle {
+        position: relative;
+
+        .pipe {
+            opacity: 0.6;
+        }
+
+        #price {
+            position: absolute;
+            right: 0px;
+        }
+    }
+
+    .adImageContainer {
+        width: 100%;
+        height: $image-max-height;
+        border-radius: 10px;
+        overflow: hidden;
+        position: relative;
+
+        .adImage {
+            width: 100%;
+            height: 100%;
+        }
+
+        .circleImagesButton {
+            position: absolute;
+            top: 50%;
+            margin-top: -15px;
+            z-index: 2;
+            width: 0;
+            height: 0;
+            border-top: 25px solid transparent;
+            border-bottom: 25px solid transparent;
+
+            &:hover {
+                cursor: pointer;
+                transition: $hover-transition;
+            }
+        }
+
+        #previousImage {
+            left: 20px;
+            border-right: 25px solid rgba(255,255,255,0.2);
+
+            &:hover {
+                border-right: 25px solid rgba(255,255,255,1);
+                transition: $hover-transition;
+            }
+        }
+
+        #nextImage {
+            right: 20px;
+            border-left: 25px solid rgba(255,255,255,0.2);
+
+            &:hover {
+                border-left: 25px solid rgba(255,255,255,1);
+                transition: $hover-transition;
+            }
+        }
+    }
+
+    #details {
+        max-height: $image-max-height;
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        .detailsHeading {
+            padding-top: 0;
+        }
+    }
+
+    .seller {
+        display: inline-block;
+
+        &.sellerImage {
+            top: -58px;
+            position: relative;
+        }
+
+        #sellerImage {
+            width: 130px;
+            height: 130px;
+            border-radius: 10px;
+        }
+    }
+
+    .sellerDetails {
+        margin-left: 20px;
+    }
+
+    #actions {
+        text-align: right;
+
+        .action {
+            width: 75px;
+            height: 75px;
+            border-radius: 50%;
+            margin: 40px;
+            padding: 10px;
+
+            &:hover {
+                cursor: pointer;
+                box-shadow: 1px 1px 5px 0 rgba(0,0,0,0.5);
+                transition: $hover-transition;
+            }
+        }
+
+        #message {
+            margin-right: 0;
+        }
+    }
+}
