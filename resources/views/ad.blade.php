@@ -116,10 +116,10 @@
                                 <div class="col"><h5>Transmission</h5></div><div class="col" id="transmission"></div>
                             </div>
                             <div class="row">
-                                <div class="col"><h5>Front breaks</h5></div><div class="col" id="frontBreaks"></div>
+                                <div class="col"><h5>Front brakes</h5></div><div class="col" id="frontBrakes"></div>
                             </div>
                             <div class="row">
-                                <div class="col"><h5>Rear breaks</h5></div><div class="col" id="rearBreaks"></div>
+                                <div class="col"><h5>Rear brakes</h5></div><div class="col" id="rearBrakes"></div>
                             </div>
                             <div class="row">
                                 <div class="col"><h5>Fuel type</h5></div><div class="col" id="fuelType"></div>
