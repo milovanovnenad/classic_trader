@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('title');
             $table->string('subtitle')->nullable();
             $table->integer('year');
-            $table->float('price', 8, 2);
+            $table->string('price');
 
             $table->timestamps();
         });

@@ -21,7 +21,7 @@ return new class extends Migration
             $table->string('last_name');
             $table->string('street');
             $table->integer('street_number');
-            $table->integer('postal_code');
+            $table->string('postal_code');
             $table->string('city');
             $table->binary('flag')->nullable();
             $table->string('country');

@@ -22,12 +22,12 @@ return new class extends Migration
             $table->string('manufacturer_code')->nullable();
             $table->string('first_registration_date')->nullable();
             $table->integer('year_of_manufacture')->nullable();
-            $table->integer('mileage')->nullable();
+            $table->string('mileage')->nullable();
             $table->string('chassis_number')->nullable();
             $table->string('engine_number')->nullable();
             $table->integer('gearbox_number')->nullable();
             $table->string('matching_numbers')->nullable();
-            $table->string('previous_owners')->nullable();
+            $table->integer('previous_owners')->nullable();
 
             $table->timestamps();
         });
