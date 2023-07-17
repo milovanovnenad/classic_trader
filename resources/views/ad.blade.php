@@ -180,7 +180,7 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-6">
+                <div class="col-sm-6 sellerContainer">
                     <div class="seller sellerImage">
                         <img id="sellerImage" src="/images/facebook-default-no-profile-pic.jpg" alt="image">
                     </div>

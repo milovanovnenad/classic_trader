@@ -18,7 +18,6 @@ let page = {
     },
 
     setAdData: function(data) {
-        console.log(data);
         $("#adTitle").html(data.year + " <span class='pipe'> | </span> " + data.title);
         $("#price").html(data.price);
         $("#adSubtitle").html(data.subtitle);
